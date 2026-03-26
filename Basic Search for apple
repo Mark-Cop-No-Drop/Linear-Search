@@ -1,0 +1,6 @@
+mylist = ["Banana", "Apple", "Orange", "grape",]
+
+if "Apple" in mylist:
+    print("found")
+else:
+    print("not found")
