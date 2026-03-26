@@ -1,0 +1,8 @@
+mylist = "School"
+NeededLetter = ("a")
+AllGOOD = all(letter in mylist for letter in NeededLetter)
+
+if AllGOOD:
+    print("Letter FOUND")
+else:
+    print("Letter NOT found")
