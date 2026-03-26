@@ -1,0 +1,6 @@
+mylist = ["cat", "fish", "bird"]
+
+if "Dog" in mylist:
+    print("found")
+else:
+    print("not found")
