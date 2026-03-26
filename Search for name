@@ -1,0 +1,13 @@
+def linearSearch(arr, targetVal):
+    for i in range(len(arr)):
+        if arr[i]==targetVal:
+            return 1
+    return -1
+myList=["Jack", "Harlow", "Bartholomu", "Big Phil", "James"]
+x= "James"
+result=linearSearch(myList,x)
+
+if result == -1:
+    print("Name NOT found")
+if result == 1:
+    print("Name FOUND")
